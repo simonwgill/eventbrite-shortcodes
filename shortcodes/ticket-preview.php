@@ -8,11 +8,17 @@
  * @author Simon Gill <simon@patternwebsolutions.com>
  * @copyright 2012 Pattern Web Solutions
  * @license http://www.gnu.org/licenses/gpl-3.0.txt
- * @version 1.0
- * @since 1.0
+ * @version 0.1
+ * @since 0.1
  */
 
-// [eventbrite-tickets event_id="1122334455"]
+/**
+ * Handles the eventbrite-tickets shortcode.
+ *
+ * @param array $atts Associative array that should contain a string named "eid" (the eventbrite event id) and optionally strings named "height" and "width".
+ * @since 0.1
+ * @example [eventbrite-tickets event_id="1122334455"]
+ */
 function eventbrite_tickets( $atts ) {
     extract( shortcode_atts( array(
         'eid' => '',

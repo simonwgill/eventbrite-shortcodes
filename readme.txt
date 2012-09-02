@@ -13,8 +13,15 @@ Shortcodes and widgets to use on a Wordpress site to show Eventbrite widgets.
 
 This plugin allows you to show the following [Eventbrite widgets](http://developer.eventbrite.com/doc/widgets/) on your site
 
-* Ticket Preview
-* Event Countdown
+= Ticket Preview =
+
+To show the ticket preview for http://www.eventbrite.co.uk/event/4262294638, add [eventbrite-tickets eid="4262294638"] to the content.
+
+You can change the height and width (which default to 100% and 256 pixels respectively) too. For example [eventbrite-tickets eid="4262294638" height="100%" width="256"]. You can use percentages or numbers of pixels.
+
+= Event Countdown =
+
+
 
 == Installation ==
 
