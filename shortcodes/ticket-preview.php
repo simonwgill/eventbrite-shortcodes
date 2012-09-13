@@ -20,6 +20,7 @@
  * @example [eventbrite-tickets event_id="1122334455"]
  */
 function eventbrite_tickets( $atts ) {
+    ob_start();
     extract( shortcode_atts( array(
         'eid' => '',
         'width' => '100%',
@@ -37,6 +38,8 @@ function eventbrite_tickets( $atts ) {
             </aside>
         <?php
     }
+
+    return ob_get_clean();
 }
 
 add_shortcode( 'eventbrite-tickets', 'eventbrite_tickets');
