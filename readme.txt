@@ -3,7 +3,7 @@ Contributors: simonwgill
 Tags: events, eventbrite
 Requires at least: WordPress 3.0
 Tested up to: WordPress 3.4.1
-Stable tag: 0.1
+Stable tag: 0.1.1
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.txt
 
@@ -21,7 +21,7 @@ You can change the height and width (which default to 100% and 256 pixels respec
 
 = Event Countdown =
 
-
+Add the widget to the appropriate sidebar and set the event id of the event you want to appear.
 
 == Installation ==
 
