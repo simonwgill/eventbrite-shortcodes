@@ -16,6 +16,7 @@
  * Handles the eventbrite-tickets shortcode.
  *
  * @param array $atts Associative array that should contain a string named "eid" (the eventbrite event id) and optionally strings named "height" and "width".
+ * @version 0.1.1
  * @since 0.1
  * @example [eventbrite-tickets event_id="1122334455"]
  */

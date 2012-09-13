@@ -4,7 +4,7 @@
  * Plugin URI: http://wordpress.org/extend/plugins/eventbrite-shortcodes/
  * Description: Display Eventbrite Widgets on your site.
  * Author: Simon Gill
- * Version: 0.1
+ * Version: 0.1.1
  * Author URI: http://www.patternwebsolutions.com/
  *
  * @package eventbrite-shortcodes
@@ -15,7 +15,7 @@
  * @since 0.1
  */
 
-define( 'EBS_VERSION', '0.1' );
+define( 'EBS_VERSION', '0.1.1' );
 define( 'EBS_ROOT', dirname( __FILE__ ) );
 define( 'EBS_WEB_ROOT', WP_PLUGIN_URL . '/' . basename( EBS_ROOT ) );
 
