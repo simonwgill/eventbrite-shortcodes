@@ -31,6 +31,9 @@ Please follow the [standard installation procedure for WordPress plugins](http:/
 
 == Changelog ==
 
+= 0.1.1 =
+* Added output buffering to put the output of ticket preview shortcode in the correct place.
+
 = 0.1 =
 * First stable release.
 * Ticket Preview Shortcode
