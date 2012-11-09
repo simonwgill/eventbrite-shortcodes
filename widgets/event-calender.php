@@ -28,8 +28,8 @@ class Event_Calender_Widget extends WP_Widget {
      */
     function __construct() {
         parent::__construct(
-            Event_Countdown_Widget::WIDGET_ID,
-            Event_Countdown_Widget::WIDGET_NAME,
+            Event_Calender_Widget::WIDGET_ID,
+            Event_Calender_Widget::WIDGET_NAME,
             array('description' => __('Shows the calender for an Eventbrite event.','eventbrite-shortcodes'))
         );
     }
@@ -53,7 +53,7 @@ class Event_Calender_Widget extends WP_Widget {
 
         if ( ! empty( $eid ) )
             ?>
-                <iframe  src="http://www.eventbrite.co.uk/calendar-widget?eid=<?php echo urlencode($eid) ?>" frameborder="0" height="351" width="195" marginheight="0" marginwidth="0" scrolling="no" allowtransparency="true"></iframe>
+                <iframe  src="http://www.eventbrite.co.uk/calendar-widget?eid=<?php echo urlencode($eid) ?>" frameborder="0" height="521" width="195" marginheight="0" marginwidth="0" scrolling="no" allowtransparency="true"></iframe>
             <?php
 
         echo $after_widget;
