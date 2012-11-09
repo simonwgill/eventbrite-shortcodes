@@ -20,4 +20,5 @@ define( 'EBS_ROOT', dirname( __FILE__ ) );
 define( 'EBS_WEB_ROOT', WP_PLUGIN_URL . '/' . basename( EBS_ROOT ) );
 
 require_once EBS_ROOT . '/shortcodes/ticket-preview.php';
+require_once EBS_ROOT . '/widgets/event-calender.php';
 require_once EBS_ROOT . '/widgets/event-countdown.php';
